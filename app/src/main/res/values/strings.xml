@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GOJEK</string>
+    <string name="order">Order Food</string>
+    <string name="hint_nama">Isi nama</string>
+    <string name="hint_alamat">Isi alamat</string>
+    <string name="hint_pesanan">Isi pesanan</string>
+    <string name="tn_order">Order</string>
+    <string name="nama_receiver">Nama</string>
+    <string name="tn_cancel">cancel</string>
+    <string name="nama">Nama</string>
+    <string name="alamat">Alamat</string>
+    <string name="pesan">Pesan</string>
+</resources>

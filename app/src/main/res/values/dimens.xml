@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="vertical_margin">16dp</dimen>
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="vertical_size">150dp</dimen>
+    <dimen name="horizontal_size">150dp</dimen>
+    <dimen name="tv_size_big">30sp</dimen>
+    <dimen name="tv_order_size">20sp</dimen>
+    <dimen name="linear_nama">100dp</dimen>
+    <dimen name="linear_width_weight">0dp</dimen>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovePesanan"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/vertical_margin"
+    android:paddingBottom="@dimen/vertical_margin"
+    android:paddingLeft="@dimen/horizontal_margin"
+    android:paddingRight="@dimen/horizontal_margin"
+    android:background="@color/colorPutih">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/deliv"
+        android:paddingTop="@dimen/vertical_margin"
+        android:paddingLeft="@dimen/horizontal_margin"
+        android:paddingRight="@dimen/horizontal_margin"/>
+
+    <TextView
+        android:id="@+id/nama_receiver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_receiver"
+        android:gravity="center"
+        android:textSize="@dimen/tv_order_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/alamat_receiver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_receiver"
+        android:gravity="center"
+        android:textSize="@dimen/tv_order_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pesanan_receiver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_receiver"
+        android:gravity="center"
+        android:textSize="@dimen/tv_order_size"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/vertical_margin"/>
+
+    <Button
+        android:id="@+id/tn_cancel"
+        android:layout_width="@dimen/vertical_size"
+        android:textColor="@color/colorPutih"
+        android:layout_height="wrap_content"
+        android:text="@string/tn_cancel"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
